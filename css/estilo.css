@@ -1,1 +1,102 @@
+html, body{
+    margin: 0px;
+}
+table{
+    width: 100%;
+}
+td{
+    padding-top: 35px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.d1 {
+    width: 100%;
+    height: 90px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-image: url(/img/sup.jpg);
+    font-weight: bold;
+    text-align: center;
+}
+.d2 td{
+    background-color: none;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
 
+.navegacion{
+    border-style: dotted;
+    width: 50%;
+}
+.navegacion2{
+    border-style:solid;
+    width: 50%;
+}
+
+.imagen1{
+    padding-right: 30px;
+    border-style: dashed;
+    background-color: lightgrey;
+    color: black;
+}
+
+.centrado{
+    float: right;
+}
+
+.ic1{
+    background-image: url(/img/ic1.jpg);
+    padding-left: 0px;
+}
+div{
+    border: none;
+    background-color: lightgrey;
+}
+.t1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15pt;
+    max-width: 400px;
+    color: red;
+}
+h1{
+    font-family: Monotype Corsiva, Brush Script MT;
+    font-size: 3rem;
+}
+.b1{
+    border:none;
+    padding-left: 20px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background-image: url(/img/biz.png);
+}
+.b2{
+    border:none;
+    padding-left: 20px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background-image: url(/img/bde.png);
+}
+.b1:active,.b2:active{
+	background: rgb(107, 224, 224);
+}
+.enlace{
+    height: 40px;
+    width: 80px;
+    border: none;
+    background: none;
+    color: white;
+    font-size: 15px;
+}
+.enlace:hover{
+    background-color: darkturquoise;
+}
+.navegacion{
+    color: rgb(248, 229, 229);
+    font-family: Monotype Corsiva, Brush Script MT;
+    font-size: 3rem;
+}
