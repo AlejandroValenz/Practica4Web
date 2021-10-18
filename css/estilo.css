@@ -26,19 +26,17 @@ td{
 }
 
 .navegacion{
-    border-style: dotted;
     width: 50%;
 }
 .navegacion2{
-    border-style:solid;
     width: 50%;
 }
 
 .imagen1{
     padding-right: 30px;
-    border-style: dashed;
     background-color: lightgrey;
     color: black;
+    border-color: lightgrey;
 }
 
 .centrado{
@@ -49,9 +47,9 @@ td{
     background-image: url(/img/ic1.jpg);
     padding-left: 0px;
 }
-div{
+div.inicio{
     border: none;
-    background-color: lightgrey;
+    background-color: rgb(241, 238, 238);
 }
 .t1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -62,6 +60,12 @@ div{
 h1{
     font-family: Monotype Corsiva, Brush Script MT;
     font-size: 3rem;
+}
+h2{
+    font-family: Monotype Corsiva, Brush Script MT;
+    font-size: 1.5rem;
+    text-align: left;
+    padding-left: 100px;
 }
 .b1{
     border:none;
@@ -99,4 +103,144 @@ h1{
     color: rgb(248, 229, 229);
     font-family: Monotype Corsiva, Brush Script MT;
     font-size: 3rem;
+}
+.cuerpo{
+    width: 70%;
+    height: 100%;
+    float: left;
+}
+.contacto{
+    width: 30%;
+    height: 100%;
+}
+.talt{
+    border-radius: 100%;
+}
+.cuerpo td{
+    min-width: 80%;
+    max-width: 400px;
+}
+.textazul{
+    color: cornflowerblue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    padding-right: 35px;
+}
+.textgray{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    padding-right: 35px;
+}
+.textwhite{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    padding-right: 35px;
+}
+div.contenido{
+    float: left;
+}
+.info{
+    border: none;
+    background-color: red;
+    color: white;
+    height: 30px;
+}
+.info:active{
+    background-color: rgb(180, 33, 33);
+}
+.ima6{
+    padding-top: 15px;
+}
+img{
+    padding-right: 20px;
+}
+table.contacto td{
+    text-align: justify;
+    padding-left: 30px;
+    padding-right: 15px;
+    padding-top: 0px;
+}
+table.contacto h2{
+    font-family: Monotype Corsiva, Brush Script MT;
+    font-size: 1.5rem;
+    text-align: justify;
+    padding-left: 25px;
+}
+button:hover{
+    cursor: pointer;
+}
+input.texto{
+    float: left;
+    background-color: lightgray;
+    border:none;
+    height: 39px;
+    padding-right: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+button.buscar{
+    background-image: url(/img/lupa.png);
+    height: 41px;
+    width: 40px;
+    border:none;
+}
+button.buscar:active{
+    background: rgba(211, 211, 211, 0.801);
+}
+.agendar{
+    float: left;
+}
+.vinculo{
+    color: cornflowerblue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    }
+li{  
+    background: url(/img/li.png) no-repeat left center;
+    height: 30px;
+    padding-left: 25px;
+}
+.vinculo2{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    text-decoration: none;
+}
+.piep{
+    font-family: Monotype Corsiva, Brush Script MT;
+    font-size: 1.5rem;
+    text-align: justify;
+    padding-left: 25px;
+    color: white;
+}
+.piedepagina{
+    background-image: url(/img/piep.jpg);
+}
+.ppagina td{
+    padding-top: 0px;
+    padding-left: 20px;
+}
+.copy{
+    padding-top: 20px;
+    background-color: turquoise;
+    text-align: center;
+}
+.suscribirse{
+    height: 30px;
+    width: 250px;
+}
+.suscribe{
+    color: red;
+    background: black;
+    border: none;
+    width: 100px;
+    height: 30px;
 }
